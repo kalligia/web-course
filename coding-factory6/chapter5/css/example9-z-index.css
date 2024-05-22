@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative; /*to parent element enos position abs el prepei na einai pos rel*/
+}
+
+.black-box{
+    border: 1px solid black;
+    background-color: black;
+    color: wheat;
+    height: 100px;
+
+}
+
+.gray-box{
+    background-color: lightgray;
+    width: 70%;
+    height: 60px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2; /*fernei to gray box pano  --- sos z-index paei paketo me POSITION, prepei na exo position attr*/
+}
+
+.green-box{
+    background-color: green;
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    z-index: 1;
+}

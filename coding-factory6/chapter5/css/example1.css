@@ -1,0 +1,25 @@
+.container {
+    height: 500px;
+    border: 1px solid black;
+    display: flex; 
+    /* ΟΡΙΖΟΝΤΙΑ ΣΤΟΙΧΙΣΗ DIV */
+    /* justify-content: flex-start; /*stoixisi orizontia apo arister
+    justify-content: flex-end; /*stoixisi orizontia apo dexia
+    justify-content: center; /*stoixisi orizontia sto kentro
+    justify-content: space-around; /*aritera k dexia ap ta stoixeia vazei keno
+    justify-content: space-between; */
+    justify-content: space-evenly;
+
+    /* ΚΑΘΕΤΗ ΣΤΟΙΧΙΣΗ DIV */
+    /* align-items: flex-start;
+    align-items: flex-end;  
+    align-items: center; */
+    align-items: stretch; /*ean ta koutia den exoun ipsos, ta kanei stratch gia na piasoun to ipsos tou container*/
+}
+
+div[class^=box]{
+    width: 200px;
+    /* height: 200px; */
+    background-color: lightblue;
+    border: 1px solid   black;
+}

@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for first container  */
+.flex-container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: tomato;
+    flex: 0 0 100%;
+}
+
+/* flex: flex-grow flex-shrink flex-basis */
+
+.aside-1 {
+    background-color: gold;
+    flex: 1 100px;
+}
+
+.main {
+    background-color: deepskyblue;
+    text-align: center;
+    flex: 3 100px;
+}
+
+.aside-2 {
+    background-color: hotpink;
+    flex: 1 100px;
+}
+
+footer {
+    background-color: lightgreen;
+    flex: 0 100%;
+}
+
+.gap-top {
+    margin-top: 30px;
+}
+
+/* .container {
+    display: flex;
+} */
+
+.flex-container-2 {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aside-3-left {
+    /* width:30%; */
+    background-color: gold;
+    flex: 0 30%;
+}
+
+.aside-3-right{
+    /* width:70%; */
+    flex: 0 70%;
+    background-color: deepskyblue;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aside-3-right .main {
+    background-color: pink;
+    flex: 3;
+}
+
+.aside-3-right .aside-4 {
+    background-color: red;
+    flex: 1;    
+}
+
+.aside-3-right footer {
+    flex: 0 100%
+}
+
+@media all and (max-width:800px) {
+    .flex-container-1 {
+        display: flex;
+        flex-flow: column;
+    }
+
+    /* header {
+        flex:0 100%;
+    } */
+
+    .aside-1 {
+        flex:0 100%;
+    }
+
+    .main {
+        flex:0 100%;
+    }
+
+    .aside-2 {
+        flex: 0 100%;
+    }
+
+}

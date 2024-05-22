@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px; /*platos content toy element*/
+    margin-left: auto; /*me margin-left-right auto kentraro stin mesi to element*/
+    margin-right: auto;
+    background-color: bisque;
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center; /*stoixizo to keimeno orizontia kentro*/
+    line-height: 200px; /*stoixizo to keimeno katakorifa kentro, dino to height toy koutioy moy edo k auto to stoixizei sto kentro*/
+    /* margin-bottom: 30px; /*margin = eksoteriko keno
+    margin-top: 30px; /*ksekollao to box ap to container
+    margin-left: 10px; ksekollao to box ap to container */
+    margin: 30px 0 30px 10px;
+}
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin-top: 20px; /*an opow edo yparxei kai bottom k top sta geitonika elements, den prostithentai alla isxyei to megalytero*/
+    padding-top: 20px; /*megalonei to keno metaksi toy border kai tou content.!!!! otan vazo padding, megalonei to kouti moy. prostithetai sto platos/ypsos toy. auto mporo na to diortoso me to   box-sizing: border-box; poy dilosa pano ston arxi toy css. etsi mikrainei to content*/
+    padding-left: 20px;
+}

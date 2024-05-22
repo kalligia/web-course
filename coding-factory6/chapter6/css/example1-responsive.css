@@ -1,0 +1,18 @@
+body {
+    background-color: orange;
+    color: blue;
+}
+
+@media print {  /* afora printers*/
+    body{
+        background-color: white;
+        color: black;
+    }
+}
+
+@media all {  /* ola ta media - syskeves*/
+    body{
+        background-color: brown;
+        color: white;
+    }
+}

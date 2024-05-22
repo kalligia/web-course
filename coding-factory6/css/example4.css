@@ -1,0 +1,35 @@
+.container {
+    background-color: beige;
+    border: 1px solid black;
+    width: 80%;
+}
+
+/*.container > h2 { /*ola ta h2 mesa stin class container
+    font-size: 24px;
+    color: green;
+} */
+
+.container > h2:first-of-type { /*sto proto h2 p tha vreis*/
+    font-size: 24px;
+    color: green;
+} 
+
+.container > p:first-of-type {  
+    color: red;
+}
+
+ul > :first-child { /*sto proto paidi, li dld p tha vrei*/
+    font-weight: bold;
+}
+
+ul > :nth-child(3){ /*sto 3o paidi,li*/
+    color: green;
+}
+
+ul > :nth-child(odd){
+    color: red;
+}
+
+ul > :nth-child(even){
+    color: blue;
+}

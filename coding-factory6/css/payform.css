@@ -1,0 +1,33 @@
+.form {
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    width: 400px;
+}
+
+.star {
+    color: red;
+}
+
+fieldset {
+    border: 1px solid gray;
+    margin-right: 12%;
+    width: 200px;
+    float: right;
+}
+
+.input-block {
+    margin-right: 10%;
+    margin-left: auto;
+    float: right;
+    padding: 1.5%;
+}
+
+.input-block > input {
+    width: 220px;
+}
+
+.button {
+    margin-right: auto;
+    margin-left: auto;
+
+}

@@ -1,0 +1,25 @@
+/* Cascade Rules, isxyei to teleftaio */ 
+
+/* p {
+   color: red; 
+}
+
+p {
+    color: blue;
+} */
+
+
+
+/* Specificity Rules, isxyei to eidikotero */
+
+.cf-text {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+#cfText {
+    color: blueviolet !important;
+}

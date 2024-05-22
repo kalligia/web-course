@@ -1,0 +1,35 @@
+table, td, th{
+    border: 1px solid black;
+
+}
+
+table{
+    border-collapse: collapse; /*oste na min emfanizetai dipli i grammi*/
+    width: 500px;
+}
+
+th {
+    height: 70px;
+}
+
+td {
+    text-align: center;
+}
+
+thead{
+    background-color: violet;
+}
+
+tr:nth-child(even) {
+    background-color: blanchedalmond;
+}
+
+tbody tr:hover{
+    background-color: grey;
+    color: rgb(30, 0, 255);
+}
+
+tfoot{
+    background-color: black;
+    color: whitesmoke;
+}

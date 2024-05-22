@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo > img {
+    height: 120px ;
+    width: auto;
+}
+
+.header {
+    display: flex; /* apo display block t allazo*/
+    background-color: #762124;
+}
+
+.nav {
+    width: 700px;
+    background-color: azure;
+}
+
+.nav > ul {
+    height: 120px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center; /*prosoxi prepei na yparxei kathorismeno ipsos*/
+}

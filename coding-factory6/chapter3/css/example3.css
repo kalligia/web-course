@@ -1,0 +1,17 @@
+.firstname {
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 20px; /* ap to pano element afinei keno 20px*/
+}
+
+.firstname input { /* afairei to border ap to input element poy vrisketai mesa stin class fname*/
+    border: 0px;
+}
+
+.lastname::before { /* to before einai pseudoelement*/
+    content: '\1F600';
+}
+
+.firstname::after {
+    content: '\1F604';
+}

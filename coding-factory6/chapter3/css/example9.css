@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border: 1px solid black;
+}
+
+.aueb-img {
+    width: 400px;
+    height: auto;
+    vertical-align: middle;
+}
+
+nav {
+    display: inline-block; /*allazo to display toy div, apo block se inline block*/
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline-block; /* fernei ta stoixeia tis listas to ena dipla sto allo k oxi to ena kato ap to allo*/
+    margin-right: 20px;
+}
+
+nav li:first-child { /*to 1o stx tou menu na ksekollisei ligo apo eikona*/
+    margin-left: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    padding: 15px 15px; /*dimiourgo keno 15px giro ap to koumpi oste ean patiso ligo pio ekso ap ta grammata tou link, na mpo st link*/
+}
+
+nav a:hover {
+    color: gray;
+}

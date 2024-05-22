@@ -1,0 +1,14 @@
+* {
+    margin: 0px; /*afairo to default margin k padding p exoun ta stoixeia gia na ta oriso ego*/
+    padding: 0px;
+}
+
+.header {
+    height: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.aueb-img > img {
+    height:calc(100vh - 200px); /*90% tou viewport height - 200px tou header*/
+}

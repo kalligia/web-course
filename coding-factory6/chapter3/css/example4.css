@@ -1,0 +1,24 @@
+/* gia ola ta h2 kai tis p poy exoyn to attribute id*/
+h2[id], p[id] { 
+    background-color: aqua;
+}
+
+/* ola ta a element pou exoun mesa to href="#"*/
+a[href="#"]:hover{
+    background-color: blueviolet;
+}
+
+/* ola ta elements opou to classname ksekinaei me tin leksi info*/
+*[class ^="info"] {
+    background-color: chocolate;
+}
+
+/* ola ta elements opou to classname periexei tin leksi text*/
+*[class*="text"] {
+    color: red;
+}
+
+/* ta stoixeia toy h2 opoy to classname teleionei me tin leksi title*/
+h2[class$="title"] {
+    font-style: italic;
+}

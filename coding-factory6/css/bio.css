@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(242, 235, 246);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.maincontainer {
+    border: 1px solid black;
+    width: 800px;
+    height: auto;
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+
+
+
+table, td{
+   /* border: 1px solid black; */
+   padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1 {
+    text-shadow: 1px 1px lightgray;
+
+}
+
+h3 {
+    color:rgb(142, 57, 57);
+    text-shadow: 1px 1px gray;
+}
+
+.list {
+    padding:0%
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+}
+
+.info {
+   /* width:40%; */
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+.dates td:nth-child(1) {
+    width: 70px;
+}
+
+.dates td:nth-child(2) {
+    width: 70px;
+}
+
+.contact {
+    font-family: 'Times New Roman', Times, serif;
+}
+

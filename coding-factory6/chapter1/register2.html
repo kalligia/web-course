@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Εγγραφή Χρήστη</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="firstname">Όνομα</label>
+            <input type="text" id="firstname" placeholder="Εισάγετε όνομα"> 
+            <label for="lastname">Επώνυμο</label>
+            <input type="text" id="lastname" placeholder="Εισάγετε επώνυμο"> 
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male" checked> <!--to checked simainei oti einai proepilegmeno to rb auto--><!--με το να τουσ δίνω ίδιο name, τα γκρουπάρω για να επιλέγεται ένα απ τα δυο-->
+            <label for="male">Άνδρας</label>
+            <input type="radio" name="gender" id="female" value="female"> <!--to value einai auto p tha apothikeutei stin vasi mas-->
+            <label for="female">Γυναίκα</label>
+        </div>
+        <div>
+            <input type="checkbox" id="married" value="married" name="ismarried">
+            <label for="married">Married</label>
+        </div>
+        <div>
+            <label for="level">Επίπεδο Σπουδών</label>
+            <select name="level" id="level">
+                <option value="1">BSc</option>
+                <option value="2">MSc</option>
+                <option value="3">PhD</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

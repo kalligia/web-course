@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+.aueb-header {
+  /*  color: white; */
+    background-color: brown;
+}
+
+.cf-header {
+   /* color: white; */
+    background-color: green;
+}
+
+.aueb-text {
+ /*   color: white; */
+    background-color: blue;
+}
+
+
+/*ena attribute mporei na exei polla classnames 
+oste na omadopoio kai na aplopoiiso tis allages p mporei na thiliso na kano! */
+.fg-light {   
+    color: white;
+}
